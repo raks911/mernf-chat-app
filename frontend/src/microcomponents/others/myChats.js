@@ -27,7 +27,7 @@ const style = {
   textAlign:'Center',
 };
 
-const baseURL="https://mern-chat-ap-rv61.vercel.app";
+const baseURL="https://mernf-chat-app.vercel.app";
 const MyChats = ({fetchAgain}) => {
   const {user,selectedChat,setSelectedChat,chats,setChats}=ChatState();
   const [loggedUser,setloggedUser] = useState();

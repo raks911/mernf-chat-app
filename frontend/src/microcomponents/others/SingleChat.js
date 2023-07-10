@@ -8,7 +8,7 @@ import './singlechat.css';
 import axios from 'axios';
 
 import io from 'socket.io-client';
-const baseURL="https://mern-chat-ap-rv61.vercel.app";
+const baseURL="https://mernf-chat-app.vercel.app";
 
 var socket;
 const SingleChat = ({fetchAgain,setfetchAgain}) => {

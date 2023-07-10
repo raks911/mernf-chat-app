@@ -10,7 +10,7 @@ const Login = () => {
   const [password,setPassword] = useState();
   const [open, setOpen] = React.useState(false);
   const [toast,setToast] = useState();
-  const baseURL="https://mern-chat-ap-rv61.vercel.app"
+  const baseURL="https://mernf-chat-app.vercel.app"
   const navigate = useNavigate();
   const handleClose = (event: React.SyntheticEvent | Event, reason?: string) => {
   if (reason === 'clickaway') {

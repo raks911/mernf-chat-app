@@ -22,7 +22,7 @@ const style = {
   textAlign:'Center',
   };
   
-  const baseURL="https://mern-chat-ap-rv61.vercel.app";
+  const baseURL="https://mernf-chat-app.vercel.app";
 const Updategroupmodal = ({fetchAgain,setfetchAgain,fetchmessages}) => {
     const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
