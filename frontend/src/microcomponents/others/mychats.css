@@ -1,0 +1,134 @@
+.mychats-container{
+    width:400px;
+    background-color: var(--primary);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    /* box-shadow: -1px 10px 30px 5px rgb(65, 55, 68); */
+}
+.chat-btn-container{
+    color:#d1d6d7;
+    margin-top:10px;
+    width:110%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chat-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    margin:10px;
+    height:40px;
+    border-radius:12px;
+    background-color: rgb(101, 95, 103);
+}
+.chat-btn p {
+    margin-left:5%;
+}
+.middle-container{ 
+    margin-top:20px;
+    width:80%;
+    color:#d1d6d7;
+    display:flex;
+    justify-content:space-between;
+}
+.sidebar{
+    position: absolute;
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    left:-400px;
+    width:400px;
+    background-color: var(--back);
+    transition: 0.5s ease-in-out;
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+.upper-sidebar{
+    display: flex;
+    margin:30px 0px ;
+    justify-content: space-around;
+    align-items: center;
+}
+.upper-sidebar input{
+    margin:10px;
+    width:100%;
+    height:40px;
+    padding:10px;
+    color:#d1d6d7;
+    border-radius:12px;
+    background-color: rgb(101, 95, 103);
+}
+.add-name{
+    margin:10px;
+    margin-top:30px;
+    width:100%;
+    height:40px;
+    padding:10px;
+    color:#d1d6d7;
+    border-radius:12px;
+    background-color: rgb(101, 95, 103);
+}
+.add-Users{
+    margin:10px;
+    width:100%;
+    height:40px;
+    padding:10px;
+    color:#d1d6d7;
+    border-radius:12px;
+    background-color: rgb(101, 95, 103);
+}
+.selected{
+    display:flex;
+    flex-wrap: wrap;
+}
+.selected div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--back);
+    color:var(--tertiary) ;
+    font-size: 13px;
+    padding: 2px 10px;
+    margin:3px;
+    border-radius:10px;
+}
+.selected div h3{
+    margin-right:7px ;
+}
+
+.chat-cards{
+    display: flex;
+    width: 330px;
+    outline:2px salmon;
+    border-radius:10px;
+    height: 60px;
+    background-color: var(--back);
+    margin-top: 14px;
+    padding:20px ;
+    justify-content: left;
+    align-items: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color:var(--tertiary);
+}
+.choosen{
+    display: flex;
+    width: 330px;
+    border-radius:10px;
+    height: 60px;
+    background: #834d9b; 
+    /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d04ed6, #834d9b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc65e2, #834d9b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: var(--back); 
+    margin-top: 14px;
+    padding:20px ;
+    justify-content: left;
+    align-items: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
