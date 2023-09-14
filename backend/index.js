@@ -26,12 +26,6 @@ app.use('/user',jsonParser,userRoutes);
 app.use('/chat',jsonParser,chatRoutes);
 app.use('/messages',jsonParser,messageroutes);
 
-app.get('/chat/:id',(req,res) => {
-    const id=req.params.id;
-    const chat=chats.filter((chat) => chat._id===id);
-    res.send(chat);
-})
-
 //error handling middlewares
 app.use(notfound);
 app.use(errorHandler);
